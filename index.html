@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Iara Curtidas: conteúdo e campanhas para divulgação autêntica nas redes sociais.">
+<title>Iara Curtidas — Cresça com estratégia</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="nav"><a class="brand" href="#"><span class="logo">i</span><span>Iara <b>Curtidas</b></span></a><a href="#servicos" class="navlink">Nossos serviços <span>↗</span></a></header>
+<main>
+<section class="hero">
+<div class="copy"><div class="eyebrow"><i></i> CONTEÚDO • ESTRATÉGIA • DIVULGAÇÃO</div>
+<h1>Mais conexão.<br><em>Mais possibilidades.</em></h1>
+<p>Campanhas e ideias de conteúdo para colocar seu perfil na frente das pessoas certas — com transparência e crescimento autêntico.</p>
+<div class="actions"><a class="btn" href="#pedido">Quero divulgar <span>→</span></a><a class="secondary" href="#servicos">Ver serviços</a></div>
+<div class="note"><span class="spark">✦</span> Sem curtidas falsas. Sem promessas milagrosas.</div></div>
+<div class="art"><div class="halo h1"></div><div class="halo h2"></div><div class="social-card top"><span class="round">♡</span><div><small>CONTEÚDO QUE CONECTA</small><strong>Encontre sua comunidade</strong></div><b>↗</b></div><div class="orb"><div class="orb-letter">i<span>✦</span></div><small>IARA SOCIAL</small></div><div class="social-card bottom"><span class="bars">▂ ▅ ▇</span><div><small>SUA PRÓXIMA IDEIA</small><strong>Começa com estratégia</strong></div></div><div class="twinkle t1">✦</div><div class="twinkle t2">✧</div></div>
+</section>
+<section id="servicos" class="section"><div class="section-title"><div><div class="eyebrow">ESCOLHA COMO COMEÇAR</div><h2>Serviços para crescer com intenção.</h2></div><p>Planos simples para transformar ideias em ações.</p></div>
+<div class="cards">
+<article class="card"><div class="icon purple">✎</div><small>01 · PERFIL</small><h3>Diagnóstico de perfil</h3><p>Recomendações para bio, posicionamento e clareza da sua página.</p><div class="price">R$ 19,00</div><button data-service="audit">Escolher <span>→</span></button></article>
+<article class="card featured"><div class="tag">MAIS POPULAR</div><div class="icon green">▦</div><small>02 · PLANEJAMENTO</small><h3>Plano de 7 dias</h3><p>Um roteiro de publicações e ações para divulgar seu trabalho.</p><div class="price">R$ 39,00</div><button data-service="plan">Escolher <span>→</span></button></article>
+<article class="card"><div class="icon orange">✧</div><small>03 · CRIATIVIDADE</small><h3>Ideias e legendas</h3><p>Cinco ideias de conteúdo com legendas para seu nicho.</p><div class="price">R$ 29,00</div><button data-service="content">Escolher <span>→</span></button></article>
+<article class="card"><div class="icon blue">↗</div><small>04 · CAMPANHA</small><h3>Planejamento de campanha</h3><p>Objetivo, público, criativos e orçamento para uma campanha promocional.</p><div class="price">R$ 59,00</div><button data-service="campaign">Escolher <span>→</span></button></article>
+</div></section>
+<section id="pedido" class="order">
+<div class="order-copy"><div class="eyebrow">VAMOS COMEÇAR?</div><h2>Conte pra Iara o que você quer alcançar.</h2><p>Envie seu pedido e receba as instruções para pagamento. A confirmação acontece pelo provedor de pagamento, não por comprovante enviado no chat.</p><div class="safe">♧ <span><b>Seu acesso continua seu.</b><br>Nunca pedimos senha ou códigos de login.</span></div></div>
+<form id="form" class="form">
+<label for="name">Seu nome</label><input id="name" name="name" required maxlength="80" placeholder="Como podemos te chamar?">
+<label for="email">E-mail para o Pix</label><input id="email" name="email" type="email" required maxlength="254" placeholder="voce@exemplo.com">
+<label for="phone">WhatsApp com país e DDD</label><input id="phone" name="phone" required inputmode="tel" maxlength="18" placeholder="Ex.: 5511999999999">
+<label for="network">Rede social</label><select id="network" name="network"><option value="instagram">Instagram</option><option value="tiktok">TikTok</option><option value="youtube">YouTube</option><option value="facebook">Facebook</option></select>
+<label for="service">Serviço</label><select id="service" name="service"><option value="audit">Diagnóstico de perfil — R$ 19,00</option><option value="plan">Plano de 7 dias — R$ 39,00</option><option value="content">5 ideias e legendas — R$ 29,00</option><option value="campaign">Planejamento de campanha — R$ 59,00</option></select>
+<label for="profile">Link público do perfil</label><input id="profile" name="profile" type="url" required maxlength="500" placeholder="https://...">
+<label for="goal">Qual é seu objetivo?</label><textarea id="goal" name="goal" rows="4" required minlength="8" maxlength="1000" placeholder="Conte seu nicho, público e o que quer divulgar..."></textarea>
+<button class="btn submit" type="submit">Enviar pedido e gerar Pix <span>→</span></button><p class="fine">Seus dados serão usados para responder ao pedido e prestar o serviço. Não envie dados de acesso.</p><div id="result" aria-live="polite"></div>
+</form></section>
+<section class="whatsapp"><div class="wa">◉</div><div><h3>Quer falar com a Iara?</h3><p>Atendimento automático para dúvidas sobre serviços e campanhas.</p></div><a class="btn dark" id="wa" href="https://www.whatsapp.com/" target="_blank" rel="noopener">Abrir WhatsApp ↗</a></section>
+</main><footer><a class="brand" href="#"><span class="logo">i</span><span>Iara <b>Curtidas</b></span></a><span>Divulgação autêntica, do seu jeito.</span><span>© <span id="year"></span> Iara Curtidas</span></footer>
+<script src="/app.js" defer></script>
+</body></html>
